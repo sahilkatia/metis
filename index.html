@@ -12,7 +12,21 @@
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
 </head>
-
+<style>
+   .text-dark{
+     text-decoration: underline !important;
+ }
+ 
+  .carousel-indicators {
+    bottom:-30px !important;
+  }
+  
+  .carousel-indicators li {
+    border-color:#999 !important;
+    background-color:#ccc !important;
+  }
+  
+</style>
 <body>
   <div id="myNavbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
@@ -153,16 +167,17 @@
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1" class=""></li>
         <li data-target="#myCarousel" data-slide-to="2" class=""></li>
         <li data-target="#myCarousel" data-slide-to="3" class=""></li>
-        <li data-target="#myCarousel" data-slide-to="4" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="4" class=""></li>
+        <li data-target="#myCarousel" data-slide-to="5" class=""></li>
       </ol>
       <!-- Wrapper for slides -->
       <div class="carousel-inner">
-        <div class="item">
-          <div class="item">
+      
+          <div class="item active">
             <img src="images/Capture.PNG" alt="Los Angeles" style="width:100%; height:60vh;">
             <div class="carousel-caption d-none d-md-block">
               <h3 class="text-dark">
@@ -170,7 +185,7 @@
               </h3>
             </div>
           </div>
-        </div>
+      
         <div class="item">
           <img src="images/sppeder.PNG" alt="Chicago" style="width:100%; height:60vh;">
           <div class="carousel-caption d-none d-md-block">
@@ -195,7 +210,7 @@
             </h3>
           </div>
         </div>
-        <div class="item active">
+        <div class="item ">
           <img src="images/Ludo.PNG" alt="New york" style="width:100%; height:60vh;">
           <div class="carousel-caption d-none d-md-block">
             <h3 class="text-dark">

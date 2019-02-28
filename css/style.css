@@ -377,45 +377,18 @@ p {
     margin-right: 5px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.carousel-indicators li {
-  background-color: #222222;
+ .text-dark{
+     text-decoration: underline !important;
+ }
+  .carousel-indicators {
+    bottom:-30px !important;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
+  .carousel-indicators li {
+    border-color:#999 !important;
+    background-color:#ccc !important;
+  }
+  
 
 @media screen and (max-width: 768px) {
 	.navbar{
